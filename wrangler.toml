@@ -1,3 +1,7 @@
 name = "jgoi"
 compatibility_date = "2026-01-13"
 pages_build_output_dir = "out"
+
+[[routes]]
+pattern = "jgoi.net"
+custom_domain = true

@@ -7,13 +7,14 @@ export default function About() {
       
       <div className="prose dark:prose-invert">
         <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed mb-6">
-          I am a passionate developer with a keen eye for design and a drive for creating 
-          seamless user experiences. My background involves full-stack development using 
-          modern technologies like React, Node.js, and Cloud infrastructures.
+I’m Justin, a developer with a knack for solving problems and a love for all things iOS.
+
+I graduated with a Computer Science degree from Monash, but my education didn't stop there. I’m constantly learning, whether I'm analyzing energy data trends or architecting my own finance app, Centi. I also have a strong background in support and education, having served as a high-performing Academic Tutor for iOS development.
+
+I’m passionate about writing clean code, helping people navigate technology, and building apps that make life a little bit easier.
         </p>
         <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">
-          When I'm not coding, I enjoy exploring new technologies, contributing to open source, 
-          and refining my craft.
+          When I'm not coding, I enjoy exploring new technologies, finding new eats and playing golf.
         </p>
       </div>
 

@@ -1,6 +1,7 @@
 import { PROJECTS } from "@/app/lib/data";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 
 // Required for Static Export to work correctly on Cloudflare
@@ -48,6 +49,29 @@ export default async function ProjectLayout({ params }: { params: Promise<{ slug
       <div className="prose dark:prose-invert max-w-none text-zinc-600 dark:text-zinc-400 leading-relaxed">
         <p className="whitespace-pre-wrap">{project.content}</p>
       </div>
+
+      {project.images && project.images.length > 0 && (
+        <div className="mt-12">
+          <h3 className="text-2xl font-semibold mb-6">Gallery</h3>
+          <div className="grid gap-6">
+            {project.images.map((image, index) => (
+              <div 
+                key={index} 
+                className="relative overflow-hidden rounded-lg border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900"
+              >
+                <Image
+                  src={image}
+                  alt={`${project.title} screenshot ${index + 1}`}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  className="w-full h-auto"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </article>
   );
 }

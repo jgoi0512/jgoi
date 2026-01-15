@@ -1,6 +1,6 @@
 export const SITE_CONFIG = {
   name: "Justin Chern Rui Goi", 
-  jobTitle: "Full-Stack Developer", 
+  jobTitle: "Aspiring iOS Developer & IT Support Specialist", 
   description: "Building digital experiences with a focus on motion and minimalism.", 
   email: "dev@jgoi.net",
   socials: {

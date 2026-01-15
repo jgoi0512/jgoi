@@ -1,8 +1,8 @@
 import { PROJECTS } from "@/app/lib/data";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowLeft, ExternalLink } from "lucide-react";
+import { ProjectGallery } from "@/app/components/ProjectGallery";
 
 // Required for Static Export to work correctly on Cloudflare
 export async function generateStaticParams() {
@@ -51,26 +51,7 @@ export default async function ProjectLayout({ params }: { params: Promise<{ slug
       </div>
 
       {project.images && project.images.length > 0 && (
-        <div className="mt-12">
-          <h3 className="text-2xl font-semibold mb-6">Gallery</h3>
-          <div className="grid gap-6">
-            {project.images.map((image, index) => (
-              <div 
-                key={index} 
-                className="relative overflow-hidden rounded-lg border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900"
-              >
-                <Image
-                  src={image}
-                  alt={`${project.title} screenshot ${index + 1}`}
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  className="w-full h-auto"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
+        <ProjectGallery images={project.images} title={project.title} />
       )}
     </article>
   );

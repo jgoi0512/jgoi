@@ -7,7 +7,6 @@ export default function About() {
       
       <div className="prose dark:prose-invert">
         <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed mb-6">
-          {/* 👇 YOU CAN ADD MORE TEXT HERE DIRECTLY OR IN DATA.TS */}
           I am a passionate developer with a keen eye for design and a drive for creating 
           seamless user experiences. My background involves full-stack development using 
           modern technologies like React, Node.js, and Cloud infrastructures.

@@ -10,11 +10,12 @@ export const SITE_CONFIG = {
 };
 
 export const PROJECTS = [
-  {
-    slug: "https://github.com/jgoi0512/centi", 
-    title: "Centi App (Finance Tracker - iOS)", 
+{
+    slug: "centi",
+    title: "Centi App",
     date: "2025",
-    description: "An iOS expense tracking application built with Swift and SwiftUI.", 
-    content: "Full detailed description of the Centi App goes here...",
+    description: "An iOS expense tracking application built with Swift and SwiftUI.",
+    content: "Full detailed description of the Centi App goes here. Explain the tech stack, the challenges, and the solution.",
+    projectUrl: "https://github.com/jgoi0512/centi" 
   },
 ];

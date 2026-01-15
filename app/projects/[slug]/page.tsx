@@ -10,8 +10,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function ProjectLayout({ params }: { params: { slug: string } }) {
-  const project = PROJECTS.find((p) => p.slug === params.slug);
+export default async function ProjectLayout({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const project = PROJECTS.find((p) => p.slug === slug);
 
   if (!project) {
     notFound();

@@ -7,9 +7,9 @@ export default function About() {
       
       <div className="prose dark:prose-invert">
         <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed mb-6">
-I’m Justin, a developer with a knack for solving problems and a love for all things iOS.
+I’m Justin, a developer with a knack for solving problems and an interest in iOS Development.
 
-I graduated with a Computer Science degree from Monash, but my education didn't stop there. I’m constantly learning, whether I'm analyzing energy data trends or architecting my own finance app, Centi. I also have a strong background in support and education, having served as a high-performing Academic Tutor for iOS development.
+I graduated with a Computer Science degree from Monash, but my education didn't stop there. I’m constantly learning, whether it be developing new apps or solving complex problems. I also have a strong background in support and education, having served as a high-performing Academic Tutor for iOS development.
 
 I’m passionate about writing clean code, helping people navigate technology, and building apps that make life a little bit easier.
         </p>

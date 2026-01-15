@@ -1,7 +1,7 @@
 export const SITE_CONFIG = {
   name: "Justin Chern Rui Goi", 
   jobTitle: "Aspiring iOS Developer & IT Support Specialist", 
-  description: "Building digital experiences with a focus on motion and minimalism.", 
+  description: "A Monash Computer Science graduate with a passion for helping people through technology and iOS development.", 
   email: "dev@jgoi.net",
   socials: {
     linkedin: "https://linkedin.com/in/jgoi0512", 

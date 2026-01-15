@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 import Link from "next/link";
-import { SITE_CONFIG } from "@/lib/data";
+import { SITE_CONFIG } from "@/app/lib/data";
 import { ThemeToggle } from "@/app/components/ThemeToggle";
 import { Github, Linkedin, Mail } from "lucide-react";
 

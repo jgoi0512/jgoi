@@ -1,6 +1,6 @@
 "use client";
 
-import { SITE_CONFIG, PROJECTS } from "@/lib/data";
+import { SITE_CONFIG, PROJECTS } from "@/app/lib/data";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";

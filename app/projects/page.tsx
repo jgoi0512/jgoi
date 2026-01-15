@@ -1,4 +1,4 @@
-import { PROJECTS } from "@/lib/data";
+import { PROJECTS } from "@/app/lib/data";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 

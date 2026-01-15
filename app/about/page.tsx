@@ -1,4 +1,4 @@
-import { SITE_CONFIG } from "@/lib/data";
+import { SITE_CONFIG } from "@/app/lib/data";
 
 export default function About() {
   return (
